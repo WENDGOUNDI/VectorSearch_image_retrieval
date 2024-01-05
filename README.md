@@ -1,4 +1,4 @@
-# Mongo DB Atlas VectorSearch Image Retrieval System
+# MongoDB Atlas VectorSearch Image Retrieval System
 
 # Description
 The aim of this work is to find similar images, mostly similar jean, tshirt, tv or sofa image from our dataset. We leveraged MongoDB Atlas VectorSearch feature to create the image search similarity system to retrieve the information. The dataset images have been converted into embeddings and hosted on a MongoDB Atlas cluster. For retrieval, the querying image will be first converted into embeddings then via MongoDB Atlas VectorSearch function, retrieve the top k images, where k=5 in our case. Cosine similarity is used for distance calculation. Enbeddings are generated via Vision Transformer (ViT) pretrained model. 
