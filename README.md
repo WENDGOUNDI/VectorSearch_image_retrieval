@@ -49,3 +49,7 @@ Below we have a set of retrieval results. Based in below tests, we can observe t
 
 ## Query 5
 ![test_result_5](https://github.com/WENDGOUNDI/VectorSearch_image_retrieval/assets/48753146/eac9fde8-004f-496d-b600-67a2e9adacdf)
+
+# Notes
+1. You need to create a .env file containing your MongoDB Atlas DB account credentials, also called **connection string** used to connect to your cluster.
+2. Adjust the paths in the code based on your local directory.
